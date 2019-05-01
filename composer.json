@@ -3,10 +3,10 @@
     "description": "Search all psr-4 namespaces defined in composer.json and check that all files under this namespaces are really complaint with these",
     "type": "library",
     "require": {
-        "symfony/console": "^4.2"
+        "symfony/console": "2.3 || ~3.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.1"
+        "phpunit/phpunit": "~4.8 || ~~.0"
     },
     "license": "MIT",
     "authors": [
