@@ -1,0 +1,24 @@
+{
+    "name": "skilla/lint-namespaces",
+    "description": "Search all psr-4 namespaces defined in composer.json and check that all files under this namespaces are really complaint with these",
+    "type": "library",
+    "require": {
+        "symfony/console": "^4.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergio Zambrano",
+            "email": "sergio.zambrano@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Skilla\\LintNamespaces\\": "src" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Tests\\Skilla\\LintNamespaces\\": "tests" }
+    }
+}
